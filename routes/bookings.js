@@ -43,8 +43,19 @@ router.post('/', async (req, res) => {
     try {
         const newBookingData = req.body;
 
+        // Derive date from items if not provided at top level
+        let bookingDate = newBookingData.date;
+        if (!bookingDate && newBookingData.items && newBookingData.items.length > 0) {
+            bookingDate = newBookingData.items[0].date;
+        }
+        // Fallback to now if still missing (though specific spots usually need a specific date)
+        if (!bookingDate) {
+            bookingDate = new Date();
+        }
+
         const booking = new Booking({
             ...newBookingData,
+            date: bookingDate,
             id: newBookingData.id || `booking-${Date.now()}`,
             createdAt: new Date()
         });
