@@ -11,9 +11,13 @@ import { router as paymentsRouter } from './routes/payments.js';
 import { router as customersRouter } from './routes/customers.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { connectDB } from './utils/database.js';
+
+// Connect to MongoDB
+connectDB().catch(err => console.error('Failed to connect to MongoDB:', err));
 
 const app = express();
-const PORT = 3000; // Changed back to 3000
+const PORT = process.env.PORT || 3000;
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
