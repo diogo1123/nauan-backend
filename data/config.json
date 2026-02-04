@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "primary": "#4ecdc4",
+    "secondary": "#1a1a1a",
+    "background": "#000000",
+    "surface": "#1a1a1a",
+    "text": "#ffffff",
+    "accent": "#4ecdc4"
+  },
+  "branding": {
+    "logo": "/logo.png",
+    "favicon": "/favicon.ico",
+    "siteName": "NAUAN Beach Club",
+    "tagline": "THE Best Beach Club"
+  },
+  "contact": {
+    "email": "info@finnsbeachclub.com",
+    "phone": "+62 811 3831 6547",
+    "whatsapp": "+62 811 3831 6547",
+    "address": "estrada do reduto, 5458, condominio Uhane Luxury Villas, Sao miguel do Gostoso"
+  },
+  "social": {
+    "facebook": "https://facebook.com/finnsbeachclub",
+    "instagram": "https://instagram.com/finnsbeachclub",
+    "youtube": "https://youtube.com/finnsbali",
+    "tiktok": "https://tiktok.com/@finnsbeachclubbali",
+    "linkedin": "https://linkedin.com/company/finns-global"
+  }
+}

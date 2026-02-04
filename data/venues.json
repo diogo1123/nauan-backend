@@ -1,0 +1,38 @@
+[
+  {
+    "name": "cuida ",
+    "slug": "beach club",
+    "description": "bom demais",
+    "shortDescription": "cuida cuida",
+    "image": "http://localhost:3001/uploads/1769912332256-738090369.jpeg",
+    "capacity": 0,
+    "features": [],
+    "isActive": false,
+    "pricing": {
+      "basePrice": 0,
+      "weekendMultiplier": 1.2,
+      "peakSeasonMultiplier": 1.3
+    },
+    "gallery": [],
+    "order": 1,
+    "id": "1769912367518"
+  },
+  {
+    "name": "nauan ",
+    "slug": "o paraiso ",
+    "description": "",
+    "shortDescription": "",
+    "image": "http://localhost:3001/uploads/1769916166575-338352289.jpeg",
+    "capacity": 0,
+    "features": [],
+    "isActive": false,
+    "pricing": {
+      "basePrice": 0,
+      "weekendMultiplier": 1.2,
+      "peakSeasonMultiplier": 1.3
+    },
+    "gallery": [],
+    "order": 2,
+    "id": "1769916188119"
+  }
+]

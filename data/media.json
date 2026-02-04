@@ -1,0 +1,24 @@
+[
+  {
+    "title": "uhu!",
+    "description": "",
+    "section": "hero",
+    "type": "image",
+    "url": "http://localhost:3001/uploads/1769909829308-869348987.jpeg",
+    "isActive": true,
+    "order": 0,
+    "id": "1769909829328",
+    "uploadedAt": "2026-02-01T01:37:09.328Z"
+  },
+  {
+    "title": "nauan",
+    "description": "",
+    "section": "gallery",
+    "type": "image",
+    "url": "http://localhost:3001/uploads/1769917303005-105907218.jpeg",
+    "isActive": true,
+    "order": 0,
+    "id": "1769917303020",
+    "uploadedAt": "2026-02-01T03:41:43.020Z"
+  }
+]
