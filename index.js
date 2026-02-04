@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 3000;
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Middleware
-app.use(cors());
+app.use(cors({ origin: '*' }));
 app.use(express.json());
 // Serve static uploads
 app.use('/uploads', express.static(path.join(__dirname, '../public/uploads'))); // Serve from root public/uploads
